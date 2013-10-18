@@ -10,15 +10,21 @@ group :development, :test do
   gem 'sqlite3'
   gem 'ruby-debug19'
   gem 'database_cleaner'
-  gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
   gem 'haml-rails'
+  gem 'guard-rspec', '1.2.1'
+  gem 'guard-spork', :github => 'guard/guard-spork'
+  gem 'childprocess', '0.3.9'
+  gem 'spork', '0.9.2'
 end
 
 group :test do
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
+  gem 'capybara'
+  gem 'rb-fsevent', '0.9.1', :require => false
+  gem 'growl', '1.0.3'
 end
 group :production do
   gem 'pg'
