@@ -28,7 +28,8 @@ group :test do
   gem 'growl', '1.0.3'
 end
 group :production do
-  gem 'pg'
+  #gem 'pg'
+  gem 'sqlite3'
 end
 
 # Gems used only for assets and not required
