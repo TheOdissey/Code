@@ -1,4 +1,7 @@
 Spillio::Application.routes.draw do
+  get "/prelaunch/new"
+  post "/prelaunch/create"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

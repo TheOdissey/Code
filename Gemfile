@@ -17,6 +17,7 @@ group :development, :test do
   gem 'guard-spork', :github => 'guard/guard-spork'
   gem 'childprocess', '0.3.9'
   gem 'spork', '0.9.2'
+  gem 't-minus'
 end
 
 group :test do
