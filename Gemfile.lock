@@ -128,7 +128,6 @@ GEM
     multi_xml (0.5.5)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
-    pg (0.17.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -229,7 +228,6 @@ DEPENDENCIES
   haml-rails
   jquery-rails
   launchy
-  pg
   rails (= 3.2.14)
   rb-fsevent (= 0.9.1)
   rspec-rails
