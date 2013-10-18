@@ -1,7 +1,8 @@
-== Spillio
+== Skillex
 
+The site can be accessed at: http://skillex.herokuapp.com/
 
-This is the code repository for project Spillio. 
+This is the code repository for project Skillex. 
 
 Please take a minute to read the following https://www.atlassian.com/git/workflows#!workflow-feature-branch
 on git workflow. I believe that the workflow described in the article is what we should 
